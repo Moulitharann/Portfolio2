@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    scorll-behaviour:smooth;
+}
 .navbar{
     display: flex;
     justify-content: center;
@@ -47,7 +50,6 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url('dp.jpg') no-repeat center center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
